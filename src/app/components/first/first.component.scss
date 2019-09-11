@@ -1,0 +1,12 @@
+div {
+  padding: 10px;
+  border: 1px solid black;
+
+  &.red {
+    border-color: red;
+  }
+
+  &.blue {
+    border-color: blue;
+  }
+}

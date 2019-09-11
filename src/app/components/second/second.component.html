@@ -1,0 +1,9 @@
+<div class="wrapper">
+  <div>
+    <app-first [firstComponentData]="secondComponentNegative$ | async"></app-first>
+  </div>
+  <div>
+    <app-first [firstComponentData]="secondComponentPositive$ | async"></app-first>
+  </div>
+</div>
+<button (click)="change()">Start</button>
